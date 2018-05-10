@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">1dedd86c390613007f44e0bb0a32f0a5</sp_column>
+        <sp_widget display_value="IT Homepage Header">84f9d0e8390613007f44e0bb0a32f0bd</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-09 23:58:16</sys_created_on>
+        <sys_id>07edd86c390613007f44e0bb0a32f064</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="my IT Portal" source="x_snc_my_it_portal">b1b05c20390613007f44e0bb0a32f0c7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="my IT Portal">b1b05c20390613007f44e0bb0a32f0c7</sys_scope>
+        <sys_update_name>sp_instance_07edd86c390613007f44e0bb0a32f064</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-10 00:00:26</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"Header1": {
+		"value": "IT Service Portal",
+		"displayValue": "IT Service Portal"
+	},
+	"H1Color": {
+		"value": "#ffd700",
+		"displayValue": "#ffd700"
+	},
+	"H1FontSize": {
+		"value": "",
+		"displayValue": ""
+	},
+	"H1TextAlign": {
+		"value": "center",
+		"displayValue": "center"
+	},
+	"Header2": {
+		"value": "",
+		"displayValue": ""
+	},
+	"H2Color": {
+		"value": "",
+		"displayValue": ""
+	},
+	"H2FontSize": {
+		"value": "",
+		"displayValue": ""
+	},
+	"H2TextAlign": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=07edd86c390613007f44e0bb0a32f064"/>
+</record_update>

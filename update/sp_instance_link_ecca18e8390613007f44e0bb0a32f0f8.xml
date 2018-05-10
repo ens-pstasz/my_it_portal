@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>IT Knowledge</short_description>
+        <size>md</size>
+        <sp_column display_value="2">84c11424390613007f44e0bb0a32f029</sp_column>
+        <sp_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</sp_page>
+        <sp_widget display_value="IT NewRocket - Image Link">c81a94e8390613007f44e0bb0a32f09b</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-09 23:44:27</sys_created_on>
+        <sys_id>ecca18e8390613007f44e0bb0a32f0f8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Get to know something</sys_name>
+        <sys_package display_value="my IT Portal" source="x_snc_my_it_portal">b1b05c20390613007f44e0bb0a32f0c7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="my IT Portal">b1b05c20390613007f44e0bb0a32f0c7</sys_scope>
+        <sys_update_name>sp_instance_link_ecca18e8390613007f44e0bb0a32f0f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-09 23:48:42</sys_updated_on>
+        <title>Get to know something</title>
+        <type>page</type>
+        <u_image>c2bb5ce8390613007f44e0bb0a32f0b3.iix?t=m</u_image>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=ecca18e8390613007f44e0bb0a32f0f8"/>
+</record_update>

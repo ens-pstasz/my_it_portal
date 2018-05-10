@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {  /* widget controller */  var c = this;}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link/>
+        <name>IT Homepage Header</name>
+        <option_schema>[{"name":"Header1","label":"Title 1","type":"string"},{"name":"H1Color","label":"Title Color1","type":"string"},{"name":"H1FontSize","label":"Font Size","type":"string"},{"name":"H1TextAlign","label":"Text Position","type":"string"},{"name":"Header2","label":"Title 2","type":"string"},{"name":"H2Color","label":"Title Color2","type":"string"},{"name":"H2FontSize","label":"Font Size2","type":"string"},{"name":"H2TextAlign","label":"Text Position2","type":"string"}]</option_schema>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+data.Header1 = gs.getMessage(options.Header1);
+data.H1TextAlign = options.H1TextAlign;
+data.H1FontSize = options.H1FontSize;
+data.H1Color = options.H1Color;	
+	
+data.Header2 = gs.getMessage(options.Header2);
+data.H2TextAlign = options.H2TextAlign;
+data.H2FontSize = options.H2FontSize;
+data.H2Color = options.H2Color;	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-09 23:40:52</sys_created_on>
+        <sys_id>84f9d0e8390613007f44e0bb0a32f0bd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>IT Homepage Header</sys_name>
+        <sys_package display_value="my IT Portal" source="x_snc_my_it_portal">b1b05c20390613007f44e0bb0a32f0c7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="my IT Portal">b1b05c20390613007f44e0bb0a32f0c7</sys_scope>
+        <sys_update_name>sp_widget_84f9d0e8390613007f44e0bb0a32f0bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-09 23:41:04</sys_updated_on>
+        <template><![CDATA[<div class="call_information">
+<span> 
+  <h1 style="color : {{data.H1Color}}; font-size : {{data.H1FontSize}}; text-align: {{data.H1TextAlign}};">{{ data.Header1 }}</h1>
+</span>
+  <h2 style="color : {{data.H2Color}}; font-size : {{data.H2FontSize}}; text-align: {{data.H2TextAlign}};">
+      {{ data.Header2 }}
+  </h2>
+</div>]]></template>
+    </sp_widget>
+</record_update>
